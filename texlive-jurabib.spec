@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/jurabib
+# catalog-date 2007-01-08 14:12:54 +0100
+# catalog-license gpl
+# catalog-version 0.6
 Name:		texlive-jurabib
 Version:	0.6
 Release:	1
@@ -88,6 +94,7 @@ bibliography entries is possible by the special language field.
 #- source
 %doc %{_texmfdistdir}/source/latex/jurabib/jurabib.dtx
 %doc %{_texmfdistdir}/source/latex/jurabib/jurabib.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -98,3 +105,5 @@ bibliography entries is possible by the special language field.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
