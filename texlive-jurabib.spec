@@ -6,7 +6,7 @@
 # catalog-version 0.6
 Name:		texlive-jurabib
 Version:	0.6
-Release:	8
+Release:	9
 Summary:	Extended BibTeX citation support for the humanities and legal texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jurabib
