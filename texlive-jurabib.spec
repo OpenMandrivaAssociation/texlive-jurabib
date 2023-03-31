@@ -1,6 +1,6 @@
 Name:		texlive-jurabib
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Extended BibTeX citation support for the humanities and legal texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jurabib
