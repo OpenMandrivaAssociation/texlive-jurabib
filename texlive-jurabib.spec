@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Extended BibTeX citation support for the humanities and legal texts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/jurabib
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/jurabib
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jurabib.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/jurabib.doc.r%{version}.tar.xz
